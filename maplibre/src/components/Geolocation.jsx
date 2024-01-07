@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import '@maptiler/sdk/dist/maptiler-sdk.css';
 import * as maptilersdk from '@maptiler/sdk';
@@ -22,7 +21,6 @@ const Geolocation = () => {
   return (
     <div>
       {/* You can add any additional content or components here */}
-      <h1>Geolocation</h1>
       <div id="map" style={{ height: '100vh' }}></div>
     </div>
   );
